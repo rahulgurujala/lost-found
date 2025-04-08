@@ -4,6 +4,10 @@
 ![Python Version](https://img.shields.io/badge/python-3.10-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
+<mark>
+This project, <b>Mumbai Police Lost & Found Items Scraper</b>,  is developed purely for educational and analysis purposes. It is not affiliated with or endorsed by the Mumbai Police or any official authority. The content and functionality are intended for learning and demonstration only.
+</mark>
+
 ## 📋 Overview
 
 This project is a high-performance web scraper designed to extract lost and found item reports from the Mumbai Police website. It provides both asynchronous and parallel processing capabilities to efficiently collect data about lost items, enabling analysis of patterns and trends.

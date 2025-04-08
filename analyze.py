@@ -120,26 +120,7 @@ def extract_areas(text):
     if not isinstance(text, str):
         return []
     # Common Mumbai areas to look for
-    areas = [
-        "Andheri",
-        "Bandra",
-        "Borivali",
-        "Chembur",
-        "Dadar",
-        "Goregaon",
-        "Juhu",
-        "Kandivali",
-        "Kurla",
-        "Malad",
-        "Powai",
-        "Santacruz",
-        "Vile Parle",
-        "Worli",
-        "Colaba",
-        "Versova",
-        "BKC",
-        "Vikhroli",
-    ]
+    areas = df["Police Station"].unique()
     found_areas = []
     for area in areas:
         if re.search(r"\b" + area + r"\b", text, re.IGNORECASE):

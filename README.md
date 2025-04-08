@@ -64,8 +64,8 @@ Example insights from our analysis:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/mumbai-lostfound-scraper.git
-   cd mumbai-lostfound-scraper
+   git clone https://github.com/rahulgurujala/lost-found.git
+   cd lost-found
    ```
 
 2. Create and activate a virtual environment:

@@ -228,7 +228,7 @@ async def process_lost_items():
     params = SearchParams(
         complaint_type=ComplaintType.LOST_ITEM,
         article_type=ArticleType.OTHER_DOCUMENTS,
-        article_desc="",  # Empty for all items
+        article_desc="AirPods",
     )
     base_url = URL_TEMPLATE.split("?")[0]
     scraper = create_scraper(base_url)
@@ -283,6 +283,7 @@ async def analyze_lost_items():
     params = SearchParams(
         complaint_type=ComplaintType.LOST_ITEM,
         article_type=ArticleType.OTHER_DOCUMENTS,
+        article_desc="AirPods",
     )
     base_url = URL_TEMPLATE.split("?")[0]
     scraper = create_scraper(base_url)
